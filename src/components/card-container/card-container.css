@@ -1,0 +1,13 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    inline-size: 100%;
+    block-size: min-content;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}

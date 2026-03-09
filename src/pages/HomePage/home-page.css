@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    inline-size: 100%;
+    block-size: min-content;
+    justify-content:  center;
+}
+
+.section__cards {
+    inline-size: clamp(375px, 80%, 900px);
+    block-size: min-content;
+    display: flex;
+    justify-content:  center;
+}

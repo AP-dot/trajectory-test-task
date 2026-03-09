@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: black;
+
+    padding: 20px;
+
+    background: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+
+    transition: all 0.2s ease;
+
+    min-height: 160px;
+}
+
+.card:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transform: translateY(-2px);
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card__title {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    gap: 8px;
+}
+
+.card__subtitle {
+    font-size: 14px;
+}
+
+.card__buttons {
+    margin-top: 16px;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
